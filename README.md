@@ -1,2 +1,6 @@
 # DWM3000-ATMega328p
 Porting DWM3000 C code library to work with ATMEGA328P
+
+The library port currently uses the DWS3000 arduino shield attached to an Arduino Uno!
+
+It is able to communicate to the DWM3000 module over SPI and have simple TX and RX transmissions occur sucessfully. Unfortunatly, the TWR-responder and TWR-initiator examples are not currently working...
